@@ -1,0 +1,12 @@
+﻿{
+    "python.defaultInterpreterPath": "D:/USAA-Agent/venv/Scripts/python.exe",
+    "python.analysis.extraPaths": [
+        "D:/USAA-Agent/src",
+        "D:/USAA-Agent/src/engine",
+        "D:/USAA-Agent/src/agents",
+        "D:/USAA-Agent/src/orchestrator",
+        "D:/USAA-Agent/src/router"
+    ],
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.useLibraryCodeForTypes": true
+}

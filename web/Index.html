@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>USSA — UNIVERSAL SMART ASSISTANT AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="app-header">
+      <div class="brand">
+        <div class="logo">USSA</div>
+        <div class="titles">
+          <h1>USSA — UNIVERSAL SMART ASSISTANT AI</h1>
+          <p class="subtitle">Your personal multi-agent intelligence — human friendly, developer ready.</p>
+        </div>
+      </div>
+      <div class="tagline">Created by Ayush Srivastava</div>
+    </header>
+
+    <section class="chat-shell">
+      <aside class="left-panel">
+        <div class="panel-top">Conversations</div>
+        <div class="convo-list">
+          <button class="convo active">Main Chat</button>
+        </div>
+        <div class="panel-bottom">
+          <small>Ready • <span id="status">offline</span></small>
+        </div>
+      </aside>
+
+      <section class="chat-area">
+        <div id="chat-window" class="chat-window"></div>
+
+        <form id="input-form" class="input-area" autocomplete="off">
+          <button id="attach" type="button" title="Attach (not implemented)">✦</button>
+          <textarea id="user-input" placeholder="Ask USSA anything..." rows="1"></textarea>
+          <button id="send-btn" type="submit" aria-label="Send">➤</button>
+        </form>
+      </section>
+    </section>
+
+    <footer class="footer">
+      <small>Powered by your local USAA agent · Run the backend and enjoy</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
